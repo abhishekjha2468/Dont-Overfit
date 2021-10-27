@@ -5,5 +5,4 @@ lightgbm
 sklearn
 requests
 flask_ngrok
-werkzeug.utils
-werkzeug.datastructures
+Werkzeug
