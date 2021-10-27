@@ -9,16 +9,16 @@ import math
 #downloading model from my github
 #github id --> https://github.com/abhishekjha2468
 import requests
-# url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/LG.pkl?raw=true'
-# with open("LG.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
-# url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/XGBoost.pkl?raw=true'
-# with open("XGBoost.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
-# url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/LGBM.pkl?raw=true'
-# with open("LGMB.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
-# url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/LASSO.pkl?raw=true'
-# with open("LASSO.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
-# url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/scaler.pkl?raw=true'
-# with open("scaler.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
+url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/LG.pkl?raw=true'
+with open("LG.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
+url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/XGBoost.pkl?raw=true'
+with open("XGBoost.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
+url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/LGBM.pkl?raw=true'
+with open("LGMB.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
+url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/LASSO.pkl?raw=true'
+with open("LASSO.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
+url = 'https://github.com/abhishekjha2468/Dont-Overfit/blob/main/scaler.pkl?raw=true'
+with open("scaler.pkl",'wb') as output_file: output_file.write(requests.get(url).content)
 
 
 #loading model from downloaded pickle file
