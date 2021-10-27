@@ -9,7 +9,7 @@
 <style type="text/css">
 		#co{
 	text-align: center;
-	padding-top: 8%;
+	padding-top: 2%;
 	text-shadow: 1px 2px 3px rgba(4,5,4,0.4),
 	0px 8px 13px rgba(7,6,5,0.1),
 	0px 18px 23px rgba(5,4,2,0.1);
@@ -23,7 +23,7 @@ body{
 }	
 h4{
 	color: white;
-	font-weight: 7;
+	font-weight: 5;
 	font-size: 2em;
 }
 	
@@ -58,7 +58,7 @@ hr{
 	padding-left:0%;
 }
 h1{
-	padding-bottom: 3%
+	padding-bottom: 0%
 	color:green;
 	padding-right: 2%
 }
@@ -90,10 +90,40 @@ h1{
   cursor: pointer;
   border-radius: 12px;
 }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 	</style>
 	
 </head>
 <body>
+	<div class="topnav">
+	  <a class="active" >Home</a>
+	  <a href="https://www.linkedin.com/in/abhishek-jha-0a0971120/">LinkedIN</a>
+	  <a href="https://github.com/abhishekjha2468/Dont-Overfit">GitHub</a>
+	  <a >Blog</a>
+	  <!-- <a href="#about">About</a> -->
+	</div>
 	<!-- <nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 		<div class="navbar-header">
@@ -133,9 +163,9 @@ h1{
   					    <div id="ll">
   					    <label>Upload Your Query Dataset: </label></div>
   					    <div id="rr">
-      					<p><b><input class="Upload" type="file" name="file" style="color: #000000;" size="20"></b></p></div>
+      					<p><b><input class="Upload" type="file" name="file" style="color: #000000;" size="10"></b></p></div>
       					<div id="ee">
-      					<p><input class="button" type="submit" value="Submit" style="color: #000000;" size="20"></p></h4></div>
+      					<p><input class="button" type="submit" value="Submit" style="color: #000000;" size="10"></p></h4></div>
 					</div>
 						<hr>
 						<!--<button class=""btn btn-default btn-lg><i class="fa fa-paw"></i>GET STARTED</button>-->	
