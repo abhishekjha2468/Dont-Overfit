@@ -258,21 +258,24 @@ h1{
 </html>"""
   return index_page
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods=['GET','POST'])
 def predict():
-  file = request.files['file']
-  fileName = file.filename
-  file.save(secure_filename(file.filename))
-  print(fileName)
-  df=pd.read_csv(fileName)
-  p=prediction(df)
-  df=pd.DataFrame()
-  df["index"]=list(range(len(p)))
-  df["Prediction"]=p
-  html = df.to_html()  
-  # write html to file
-  # text_file = open("output.html", "w")
-  # text_file.write(html)
-  # text_file.close()
-  return html
+	try:
+		file = request.files['file']
+		fileName = file.filename
+		file.save(secure_filename(file.filename))
+		print(fileName)
+		df=pd.read_csv(fileName)
+		p=prediction(df)
+		df=pd.DataFrame()
+		df["index"]=list(range(len(p)))
+		df["Prediction"]=p
+		html = df.to_html()  
+	except:
+		html="ERROR OCCURED"
+	# write html to file
+	# text_file = open("output.html", "w")
+	# text_file.write(html)
+	# text_file.close()
+	return html
 # app.run()
