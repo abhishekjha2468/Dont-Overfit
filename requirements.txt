@@ -4,7 +4,6 @@ pandas
 lightgbm
 sklearn
 requests
-pickle
 flask_ngrok
 werkzeug.utils
 werkzeug.datastructures
