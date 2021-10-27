@@ -272,7 +272,7 @@ def predict():
 		df["Prediction"]=p
 		html = df.to_html()  
 	except Exception as e:
-		html="ERROR OCCURED ADN THE ERROR IS \n " + str(e.message)
+		html="ERROR OCCURED ADN THE ERROR IS \n " + str(e)
 	# write html to file
 	# text_file = open("output.html", "w")
 	# text_file.write(html)
