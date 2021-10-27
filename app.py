@@ -195,7 +195,7 @@ h1{
 	  <a class="active" >Home</a>
 	  <a href="https://www.linkedin.com/in/abhishek-jha-0a0971120/">LinkedIN</a>
 	  <a href="https://github.com/abhishekjha2468/Dont-Overfit">GitHub</a>
-	  <a >Blog</a>
+	  <a href="https://medium.com/@abhishekjha2468/dont-overfit-ii-29c1a1f988a7">Blog</a>
 	  <!-- <a href="#about">About</a> -->
 	</div>
 	<!-- <nav class="navbar navbar-default navbar-fixed-top">
