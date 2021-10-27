@@ -68,7 +68,7 @@ from werkzeug.utils import secure_filename
 from werkzeug.datastructures import  FileStorage
 import os
 app = Flask(__name__)
-run_with_ngrok(app) 
+# run_with_ngrok(app) 
 
 @app.route("/")
 def home():
